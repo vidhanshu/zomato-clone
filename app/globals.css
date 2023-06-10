@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 640px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+input[type="radio"] {
+  appearance: none;
+
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  transition-duration: 0.5s;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 7px;
+  position: relative;
+  top: 7px;
+}
+
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transform: scale(0);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  transition-duration: 0.5s;
+}
+
+input[type="radio"]:checked:after {
+  transform: scale(1);
+}
+input[type="radio"]:checked {
+  border: 1px solid red;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
