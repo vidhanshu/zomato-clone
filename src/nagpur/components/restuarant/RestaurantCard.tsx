@@ -3,7 +3,6 @@ import Link from "next/link";
 import { NSNagpur } from "../../nagpur";
 import Image from "next/image";
 import { stringShortener } from "../../utils/methods";
-import { AiFillStar } from "react-icons/ai";
 import RatingLabel from "@/src/common/components/RatingLabel";
 
 const RestaurantCard: FC<NSNagpur.IRestaurant> = ({

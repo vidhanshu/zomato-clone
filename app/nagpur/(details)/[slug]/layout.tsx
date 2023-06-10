@@ -11,7 +11,7 @@ const layout: FC<{ children: React.ReactNode, params: { slug: string } }> = ({ c
             <Container className="pt-4 sticky top-0 z-10 bg-white pb-0">
                 <div className="my-5">
                     <div className='mb-2 flex justify-between items-center'>
-                        <h1 className="font-medium text-3xl">Pablo - The Art Cafe' Lounge</h1>
+                        <h1 className="font-medium text-3xl">Pablo - The Art Cafe Lounge</h1>
                         <RatingLabel rating={4.5} />
                     </div>
                     <p className="text-gray-500">Continental, Italian, North Indian, American, Bar Food</p>
