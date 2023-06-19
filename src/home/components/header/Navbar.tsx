@@ -61,7 +61,7 @@ const Navbar = () => {
               onClick={() => setActive(false)}
             />
             <Image
-              src="/home/components/logo_dark.png"
+              src="/home/logo_dark.png"
               alt="logo"
               width={150}
               height={50}

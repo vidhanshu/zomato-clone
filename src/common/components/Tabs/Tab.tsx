@@ -5,12 +5,16 @@ const Tab: FC<{
     href: string;
     active: boolean;
     label:string;
-}> = ({ active, href,label }) => {
+    className?:string;
+}> = ({ active, href, label, className }) => {
     return (
         <Link
-            className={`text-lg md:text-xl font-medium flex gap-2 items-center relative ${active ? "text-red-500" : "text-gray-600"
-                }`}
+            className={`
+            text-lg md:text-xl font-medium flex gap-2 items-center relative ${className}
+            ${active ? "text-red-500" : "text-gray-600"}
+            `}
             href={href}
+            scroll={false}
         >
             {label}
             {active && (

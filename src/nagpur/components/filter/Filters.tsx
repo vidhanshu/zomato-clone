@@ -5,7 +5,7 @@ import Container from "@/src/common/components/Container";
 const Modal = dynamic(() => import("@/src/common/components/Modal").then(module => module.Modal))
 import { useState } from "react";
 import { CiSliderHorizontal } from "react-icons/ci";
-import FilterCard from "./FilterCard";
+import FilterBtn from "./FilterBtn";
 
 const Filters = () => {
   const [modal, setModal] = useState(false);
@@ -14,14 +14,14 @@ const Filters = () => {
   return (
     <Container className="py-4">
       <div className="flex items-center gap-2">
-        <FilterCard
+        <FilterBtn
           icon={<CiSliderHorizontal size={20} />}
           label="Filters"
           onClick={() => {
             setModal(true);
           }}
         />
-        <FilterCard
+        <FilterBtn
           label="Rating 4+"
           onClick={() => {
           }}

@@ -49,3 +49,11 @@ input[type="radio"]:checked {
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
+
+.collapsed {
+  min-width : 30px;
+}
+
+.no-collapsed {
+  min-width : 300px;
+}

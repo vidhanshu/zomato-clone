@@ -49,7 +49,7 @@ const GetTheZomatoApp = () => {
           {isEmail ? (
             <div className="flex-col flex md:flex-row items-center gap-2 my-4">
               <InputField placeholder="Your Email" />
-              <Button buttonText="Send App Link" className="w-full" />
+              <Button buttonText="Send App Link" className="w-full md:w-fit" />
             </div>
           ) : (
             <div className="flex-col md:flex-row flex gap-2 items-center my-4">
@@ -75,7 +75,7 @@ const GetTheZomatoApp = () => {
                 />
                 <InputField placeholder="Your Phone" />
               </div>
-              <Button buttonText="Send App Link" className="w-full" />
+                <Button buttonText="Send App Link" className="w-full md:w-fit" />
             </div>
           )}
 

@@ -296,3 +296,75 @@ export const INSPIRATIONS = [
     name: "Chicken",
   },
 ];
+
+export const PHOTOS = [
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/2534b860b5d899d76bd1d5b43f3d90dc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/1c1e23cd9fa0b520f4b9db1a4e8aafe4.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/a75f0ebb5553ca1b277594f17725a27e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/6f1754029f2b695456722781bb559b47.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/663ddaf4c9071bb89917026524640b7d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/b199e91106eb738667c68366b0f2a5ad.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/2534b860b5d899d76bd1d5b43f3d90dc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/1c1e23cd9fa0b520f4b9db1a4e8aafe4.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/a75f0ebb5553ca1b277594f17725a27e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/6f1754029f2b695456722781bb559b47.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/663ddaf4c9071bb89917026524640b7d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/b199e91106eb738667c68366b0f2a5ad.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/2534b860b5d899d76bd1d5b43f3d90dc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/1c1e23cd9fa0b520f4b9db1a4e8aafe4.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/a75f0ebb5553ca1b277594f17725a27e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/6f1754029f2b695456722781bb559b47.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/663ddaf4c9071bb89917026524640b7d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/b199e91106eb738667c68366b0f2a5ad.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/2534b860b5d899d76bd1d5b43f3d90dc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/1c1e23cd9fa0b520f4b9db1a4e8aafe4.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/a75f0ebb5553ca1b277594f17725a27e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/6f1754029f2b695456722781bb559b47.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/663ddaf4c9071bb89917026524640b7d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+  "https://b.zmtcdn.com/data/pictures/chains/0/18601970/b199e91106eb738667c68366b0f2a5ad.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+];
+
+export const REVIEWS: NSNagpur.IReview[] = [
+  {
+    id: "1",
+    name: "xyz",
+    rating: 2,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "2",
+    name: "xyz",
+    rating: 4,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "3",
+    name: "xyz",
+    rating: 3.2,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "4",
+    name: "xyz",
+    rating: 4.5,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "5",
+    name: "xyz",
+    rating: 1,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "6",
+    name: "xyz",
+    rating: 4,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+  {
+    id: "7",
+    name: "xyz",
+    rating: 4,
+    comment: 'xyz xyz xyz xyz xyz xyz zxy yzx'
+  },
+]

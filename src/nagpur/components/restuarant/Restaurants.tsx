@@ -2,7 +2,7 @@
 
 import Container from "@/src/common/components/Container";
 import React, { FC, useLayoutEffect, useState } from "react";
-import { RESTAURANTS } from "./../../utils/constants";
+import { RESTAURANTS } from "../../utils/constants";
 import RestaurantCard from "./RestaurantCard"
 import RestuarantCardSkeleton from "./RestuarantCardSkeleton"
 

@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 import { NSNagpur } from "../../nagpur";
 import Image from "next/image";
-import { stringShortener } from "../../utils/methods";
+import { stringShortener } from "../../../common/utils/methods";
 import RatingLabel from "@/src/common/components/RatingLabel";
 
 const RestaurantCard: FC<NSNagpur.IRestaurant> = ({

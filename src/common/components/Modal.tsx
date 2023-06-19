@@ -4,10 +4,10 @@ import { RxCross2 } from "react-icons/rx";
 import Button from "./Button";
 
 export const Modal: FC<{
-  title:string;
+  title: string;
   children: React.ReactNode;
-  onClose: ()=>void;
-  onSubmit: ()=>void;
+  onClose: () => void;
+  onSubmit: () => void;
 }> = ({ children, title, onClose, onSubmit }) => {
   return (
     <div className="w-screen h-screen fixed top-0 left-0 flex justify-center items-center p-3">
@@ -20,8 +20,8 @@ export const Modal: FC<{
         </div>
         {children}
         <div className="border-t-[1px] border-gray-300 p-3 flex justify-end gap-4">
-          <Button variant="primary" buttonText="Clear all" />
-          <Button variant="secondary" buttonText="Apply" />
+          <Button variant="secondary" buttonText="Clear all" />
+          <Button buttonText="Apply" />
         </div>
       </div>
     </div>

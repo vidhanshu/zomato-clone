@@ -11,4 +11,8 @@ export declare namespace NSComponents {
     isNewTab?: boolean;
     isDisabled?: boolean;
   }
+  interface ITab {
+    label: string;
+    href: string;
+  }
 }

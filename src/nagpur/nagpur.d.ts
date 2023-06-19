@@ -10,4 +10,10 @@ export declare namespace NSNagpur{
         price: string;
         offer?: string;
     }
+    interface IReview {
+        id: string;
+        name: string;
+        rating: number;
+        comment: string;
+    }
 }
