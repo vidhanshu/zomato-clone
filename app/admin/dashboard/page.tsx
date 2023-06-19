@@ -1,6 +1,5 @@
 "use client";
 import React from 'react'
-import Chart from "chart.js/auto";
 import DashboardCard from "@/src/admin/components/DashboardCard";
 import { MdRestaurantMenu } from "react-icons/md";
 import Card from '@/src/common/components/Card';
@@ -8,7 +7,7 @@ import Card from '@/src/common/components/Card';
 const Admin = () => {
 
    return (
-      <div className="p-2 md:p-4 xl:p-8 bg-gray-50 min-h-[100vh] flex flex-col gap-8">
+      <div className="px-2 pt-8 pb-[90px] md:p-4 xl:p-8 bg-gray-50 min-h-[100vh] flex flex-col gap-8">
          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             <DashboardCard
                Icon={MdRestaurantMenu}
