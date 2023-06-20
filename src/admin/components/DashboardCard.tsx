@@ -6,7 +6,7 @@ const DashboardCard: React.FC<IDashboardCardProps>= ({
 }) => {
     return (
         <Card className={
-            `${mode === 'light' ? 'bg-white text-black' : 'bg-black text-white'} flex flex-col gap-4`
+            `${mode === 'light' ? 'bg-white text-black' : 'bg-black text-white'} flex flex-col gap-6 border-[1px]`
         }>
             <div className="flex justify-between">
                 <div>
@@ -19,10 +19,10 @@ const DashboardCard: React.FC<IDashboardCardProps>= ({
             </div>
             <div className="flex flex-col gap-2">
                 <div className="flex justify-between">
-                    <h1 className="text-lg">0%</h1>
-                    <h1 className="text-lg">{percent}%</h1>
+                    <h1 className="text-lg font-semibold">0%</h1>
+                    <h1 className="text-lg font-semibold">{percent}%</h1>
                 </div>
-                <div className="bg-gray-200 w-full rounded-full overflow-hidden">
+                <div className={`${mode === "light" ? "bg-gray-200" : "bg-gray-400"} w-full rounded-full overflow-hidden`}>
                     <div className={`h-2 ${mode === "dark" ? 'bg-white' : 'bg-black'}`}
                         style={{
                             width: `${percent}%`
