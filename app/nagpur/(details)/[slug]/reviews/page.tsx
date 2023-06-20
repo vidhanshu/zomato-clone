@@ -6,7 +6,7 @@ import { REVIEWS } from '@/src/nagpur/utils/constants';
 import ReviewCard from "@/src/nagpur/components/detail-page/reviews/ReviewCard"
 import SelectField from '@/src/common/components/SelectField';
 
-const page = () => {
+const Page = () => {
   const [value, setValue] = React.useState<string>("newest");
 
   const options = [
@@ -45,4 +45,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
